@@ -25,7 +25,7 @@ function DinamicContent() {
 
     const Img2 = ()=>{
         return(
-            <img src={bigImg2} alt='Imagem pequena' className={'little-img'} key='img2' onClick={() =>{
+            <img src={bigImg2} alt='Imagem pequena' key='img2' onClick={() =>{
                 setSelectImg2(true)
                 setSelectImg1(false)
                 setSelectImg3(false)
@@ -36,7 +36,7 @@ function DinamicContent() {
 
     const Img3 = ()=>{
         return(
-            <img src={bigImg3} alt='Imagem pequena' className={'little-img'} key='img3' onClick={() =>{
+            <img src={bigImg3} alt='Imagem pequena' key='img3' onClick={() =>{
                 setSelectImg3(true)
                 setSelectImg1(false)
                 setSelectImg2(false)
@@ -47,7 +47,7 @@ function DinamicContent() {
 
     const Img4 = ()=>{
         return(
-            <img src={bigImg4} alt='Imagem pequena' className={'little-img'} key='img4' onClick={() =>{
+            <img src={bigImg4} alt='Imagem pequena' key='img4' onClick={() =>{
                 setSelectImg4(true)
                 setSelectImg1(false)
                 setSelectImg2(false)
