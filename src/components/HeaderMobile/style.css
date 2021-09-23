@@ -1,0 +1,67 @@
+header{
+    width: 100%;
+}
+
+.first-row-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-corebiz-white{
+    width: 124px;
+    height: 28px;
+}
+
+.img-menu{
+    width: 27px;
+    height: 18px;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+.img-menu:active{
+    width: 25px;
+    height: 16px;
+}
+
+.menu{
+    max-height: 0;    
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+
+.open{
+    max-height: 100vw;
+    transition: all .5s ease-in-out;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 16px 0;
+}
+
+li{
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px #fff solid;
+}
+
+.link{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+
+.linl:focus, .link:hover, .link:active{
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
