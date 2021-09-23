@@ -1,5 +1,6 @@
 import './style.css';
 import arrowSeeMore from '../../assets/arrow-see-more.svg';
+import DinamicContent from '../DinamicContent'
 
 function Main() {
     return (
@@ -14,6 +15,9 @@ function Main() {
                     <span className='text-see-more'>veja mais</span>
                     <img src={arrowSeeMore} alt='flexa veja mais' className='arrow-see-more' />
                 </a>
+            </div>
+            <div className='imgs-container'>
+                <DinamicContent/>
             </div>
         </main>
     )

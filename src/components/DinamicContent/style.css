@@ -1,0 +1,16 @@
+.big-img{
+    width: 100%;
+}
+
+.container-little-imgs{
+    margin-top: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.little-img{
+    width: 77px;
+    height: 45px;
+    cursor: pointer;
+}
