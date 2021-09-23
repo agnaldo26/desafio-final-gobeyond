@@ -1,3 +1,57 @@
+.title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 40px;
+    cursor: default;
+    min-height: 200px;
+}
+
+.div-see-more{
+    width: 221px;
+    height: 60px;
+    border-radius: 43px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: all .15s ease-in-out;
+    margin-top: 19px;
+}
+
+.div-see-more:hover, .div-see-more:active{
+    opacity: .5;
+}
+
+.link-see-more{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-see-more .text-see-more{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.arrow-see-more{
+    margin-left: 8.44px;
+    width: 20.75px;
+    height: 20.75px;
+}
+
+.container-big-img{
+    width: 100%;
+    margin-top: 35px;
+}
+
 .big-img{
     width: 100%;
 }
@@ -13,4 +67,15 @@
     width: 77px;
     height: 45px;
     cursor: pointer;
+    border: none;
+    transition: all .15s ease-in-out;
+}
+
+.little-img:active{
+    width: 74px;
+    height: 42px;
+}
+
+.select{
+    border: 3px solid #fff;
 }
