@@ -1,9 +1,13 @@
 import './App.css';
-import Main from '../Main'
+import HeaderMobile from '../HeaderMobile';
+import Main from '../Main';
 
 function App() {
     return(
+        <>
+        <HeaderMobile />
         <Main />
+        </>
     )
 }
 
