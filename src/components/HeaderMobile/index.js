@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './style.css';
-import logoCorebiz from '../../assets/logo-corebiz-global.svg';
+import logoCorebiz from '../../assets/logo-corebiz-white.svg';
 import imgMenu from '../../assets/img-menu.svg'
 
 
@@ -19,7 +19,7 @@ function HeaderMobile() {
                 <img src={imgMenu} alt='Botão de menu' className='img-menu' onClick={handleMenu}></img>
             </div>
             
-            <div className={'menu' + display}>
+            <div className={'menu-header' + display}>
                 <ul>
                     <li><a href='https://www.corebiz.ag/pt/about/' target='_blank' rel="noreferrer" className='link'>a corebiz</a></li>
                     <li><a  href='https://www.corebiz.ag/pt/#framework-title' target='_blank' rel="noreferrer" className='link'>serviços</a></li>

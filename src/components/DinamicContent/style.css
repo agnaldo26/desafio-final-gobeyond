@@ -58,7 +58,7 @@
 }
 
 .container-little-imgs{
-    margin-top: 17px;
+    margin-top: 8.5px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -66,6 +66,7 @@
 }
 
 .little-img{
+    margin-top: 8.5px;
     width: 77px;
     height: 45px;
     cursor: pointer;
