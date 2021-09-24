@@ -6,7 +6,7 @@
     line-height: 40px;
     cursor: default;
     width: 100%;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .div-see-more{
@@ -67,16 +67,14 @@
 
 .little-img{
     margin-top: 8.5px;
-    width: 77px;
-    height: 45px;
+    width: 23.06%;
     cursor: pointer;
     border: none;
     transition: all .15s ease-in-out;
 }
 
 .little-img:active{
-    width: 74px;
-    height: 42px;
+    border: 3px solid #000;
 }
 
 .select{
