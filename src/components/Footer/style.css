@@ -57,6 +57,10 @@
     font-size: 12px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.link{
+    opacity: 1;
     transition: all .15s ease-in;
 }
 

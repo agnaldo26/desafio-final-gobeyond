@@ -12,9 +12,9 @@ function Footer() {
                 <img src={logoCorebiz} alt='Logo Corebiz' className='logo-corebiz' />
                 <p className='rights-reserved'>direitos reservados. corebiz 2021</p>
                 <div className='social-media'>
-                    <img src={iconFacebook} alt='Ícone Facebook' className='icon-facebook' />
-                    <img src={iconInstagram} alt='Ícone Instagram' className='icon-instagram' />
-                    <img src={iconLinkedin} alt='Ícone LinkedIn' className='icon-linkedin' />
+                    <a href='https://pt-br.facebook.com/corebiz.ag/' target='_blank' rel='noreferrer' className='link'><img src={iconFacebook} alt='Ícone Facebook' className='icon-facebook' /></a>
+                    <a href='https://www.instagram.com/corebizag/' target='_blank' rel='noreferrer' className='link'><img src={iconInstagram} alt='Ícone Instagram' className='icon-instagram' /></a>
+                    <a href='https://www.linkedin.com/company/corebiz-brasil' target='_blank' rel='noreferrer' className='link'><img src={iconLinkedin} alt='Ícone LinkedIn' className='icon-linkedin' /></a>
                 </div>
             </div>
             <div className='menu-footer'>
