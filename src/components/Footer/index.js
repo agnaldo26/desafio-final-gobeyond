@@ -9,7 +9,7 @@ function Footer() {
     return (
         <footer className='footer'>
             <div className='first-div'>
-                <img src={logoCorebiz} alt='Logo Corebiz' className='logo-corebiz' />
+                <img src={logoCorebiz} alt='Logo Corebiz' className='logo-corebiz-black' />
                 <p className='rights-reserved'>direitos reservados. corebiz 2021</p>
                 <div className='social-media'>
                     <a href='https://pt-br.facebook.com/corebiz.ag/' target='_blank' rel='noreferrer' className='link'><img src={iconFacebook} alt='Ícone Facebook' className='icon-facebook' /></a>
@@ -28,20 +28,20 @@ function Footer() {
 
             <address className='address'>
                 <div className='countries'>
-                    <div className='country'>
+                    <div className='country brasil'>
                         <h5 className='name-country'>.Brasil</h5>
                         <p className='unit-address'>Avenida Andrômeda, 2000. Bloco 6 e 8 Alphaville SP</p>
                         <p className='unit-address'>R. Ifigenia Maria de Oliveira, 3793 Jr. Piratininga Franca SP</p>
                     </div>
-                    <div className='country'>
+                    <div className='country argentina'>
                         <h5 className='name-country'>.Argentina</h5>
                         <p className='unit-address'>.Soler 5518, 3 Piso C1425BYF Palermo Hollywood CABA</p>
                     </div>
-                    <div className='country'>
+                    <div className='country mexico'>
                         <h5 className='name-country'>.México</h5>
                         <p className='unit-address'>Blvd. Miguel de Cervantes Saavedra 169, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX</p>
                     </div>
-                    <div className='country'>
+                    <div className='country chile'>
                         <h5 className='name-country'>.Chile</h5>
                         <p className='unit-address'>Roberto del Río 1137, Providencia.</p>
                     </div>

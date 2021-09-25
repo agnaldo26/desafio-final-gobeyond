@@ -5,7 +5,7 @@ main{
 
 @media only screen and (min-width: 1007px){
     main{
-        padding: 0 77px 9.53vh 81px;
-        height: calc(100% + 140px);
+        padding: 0 4.01vw 0 4.21vw;
+        height: fit-content;
     }
 }

@@ -78,11 +78,12 @@
     }
 
     .header{
+        height: 100%;
         display: flex;
         flex-direction: row; 
         justify-content: space-between; 
         align-items: flex-start;
-        padding: 55px 77px 54.01px 81px;
+        padding: 2.86vw 4.01vw 1.89vw 4.21vw;
     }
     .menu-header{
         max-height: 100%;

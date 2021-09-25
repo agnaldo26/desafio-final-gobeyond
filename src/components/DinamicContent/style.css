@@ -84,38 +84,40 @@
 }
 
 @media only screen and (min-width: 1007px){
+
     .title{
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 3.12vw;
+        line-height: 3.12vw;
         width: 25.26vw;
         overflow-wrap: break-word;
-        margin-right: 13.79vw;
-        padding-top: 3.48vh;
+        margin-right: 66.51vw;
+        padding-top: 4.42vw;
+        overflow: visible;
+        word-wrap: unset;
     }
 
     .div-see-more{
-        margin-top: 2.03vh;
+        margin-top: 2.03vw;
     }
 
     .container-big-img{
         position: absolute;
-        right: 77px;
+        right: 4.01vw;
         top: 140px;
         width: 58.76vw;
-        height: 61.75vh;
         margin: 0;
     }
 
     .container-little-imgs{
-        margin-top: 9.12vh;
-        margin-bottom: 9.53vh;
+        margin-top: 5.13vw;
+        padding-bottom: 5.365vw;
         width: 27.5vw;
         flex-wrap: nowrap;
     }
 
     .little-img{
-        width: 6.34vw;
-        height: 6.66vh;
+        width:6.34vw;
+        height: 3.75vw;
         margin: 8.5px .76vw 0 0;
     }
 }
