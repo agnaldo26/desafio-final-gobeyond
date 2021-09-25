@@ -1,4 +1,4 @@
-header{
+.header{
     width: 100%;
     background-color: #000;
     padding: 26px 29px 21.62px 29px;
@@ -65,4 +65,47 @@ header{
 
 .link:hover, .link:active{
     opacity: .5;
+}
+
+@media only screen and (min-width: 1007px){
+    .img-menu{
+        display: none;
+    }
+
+    .logo-corebiz-white{
+        width: 216.13px;
+        height: 48.66px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 55px 77px 54.01px 81px;
+    }
+    .menu-header{
+        max-height: 100%;
+        width: fit-content;
+    }
+
+    .menu-header ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .menu-header ul li{
+        text-align: left;
+        border: none;
+        margin-left: 42px;
+        padding: 0;
+        width: fit-content;
+    }
+
+    .menu-header ul li .link{
+        width: 100%;
+        font-size: 25px;
+    }
 }

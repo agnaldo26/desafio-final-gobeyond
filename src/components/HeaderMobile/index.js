@@ -13,7 +13,7 @@ function HeaderMobile() {
     }
 
     return (
-        <header>
+        <header className='header'>
             <div className='first-row-header'>
                 <img src={logoCorebiz} alt='Logo Corebiz' className='logo-corebiz-white' />
                 <img src={imgMenu} alt='Botão de menu' className='img-menu' onClick={handleMenu}></img>
