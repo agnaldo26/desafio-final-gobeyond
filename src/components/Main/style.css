@@ -2,3 +2,10 @@ main{
     background-color: #000;
     padding: 21.62px 29px 38px 29px;
 }
+
+@media only screen and (min-width: 1007px){
+    main{
+        padding: 0 77px 9.53vh 81px;
+        height: calc(100% + 140px);
+    }
+}

@@ -81,7 +81,7 @@
         display: flex;
         flex-direction: row; 
         justify-content: space-between; 
-        align-items: center;
+        align-items: flex-start;
         padding: 55px 77px 54.01px 81px;
     }
     .menu-header{
