@@ -72,11 +72,6 @@
         display: none;
     }
 
-    .logo-corebiz-white{
-        width: 216.13px;
-        height: 48.66px;
-    }
-
     .header{
         height: 100%;
         display: flex;
@@ -85,6 +80,12 @@
         align-items: flex-start;
         padding: 2.86vw 4.01vw 1.89vw 4.21vw;
     }
+
+    .logo-corebiz-white{
+        width: 216.13px;
+        height: 48.66px;
+    }
+
     .menu-header{
         max-height: 100%;
         width: fit-content;

@@ -96,19 +96,17 @@
     font-style: normal;
 }
 
+
 @media only screen and (min-width: 1007px){
     .footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        position: absolute;
-        left: 0;
-        bottom: 0;
     }
 
     .first-div{
         align-items: flex-start;
-        padding: 2.23vw 0.88vw 0 4.06vw;
+        padding: 3.96vh 0.88vw 0 4.06vw;
         margin: 0;
         width: 13.02vw;
     }
@@ -122,17 +120,19 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-top: 2.35vw;
+        margin-top: 4.17vh;
     }
 
     .menu-footer{
+        display: block;
         width: 9.63vw;
         margin: 0 5.57vw 0 0;
-        padding: 2.23vw 0 2.55vw 0;
+        padding: 3.96vh 0 4.53vh 0;
     }
 
     .menu-footer ul{
         align-items: flex-start;
+        width: 100%;
     }
 
     .menu-footer ul li{
@@ -142,13 +142,15 @@
 
     .address{
         width: 66.82vw;
-        padding: 2.23vw 0 0 0;
+        padding: 3.96vh 0 0 0;
     }
 
     .countries{
-        width: 100%;
         display: flex;
+        width: 100%;
+        flex-direction: row;
         justify-content: space-around;
+        align-items: flex-start;
         padding: 0;
         margin: 0;
     }
@@ -156,6 +158,7 @@
     .country{
         max-width: 12.70vw;
         justify-content: space-around;
+        align-items: flex-start;
     }
 
     .brasil{
@@ -176,6 +179,10 @@
 
     .name-country{
         padding: 0;
+    }
+    
+    .unit-address{
+        text-align: left;
     }
     
 }

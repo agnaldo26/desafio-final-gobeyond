@@ -84,40 +84,38 @@
 }
 
 @media only screen and (min-width: 1007px){
-
     .title{
         font-size: 3.12vw;
         line-height: 3.12vw;
         width: 25.26vw;
         overflow-wrap: break-word;
         margin-right: 66.51vw;
-        padding-top: 4.42vw;
+        padding-top: 7.86vh;
         overflow: visible;
         word-wrap: unset;
     }
 
     .div-see-more{
-        margin-top: 2.03vw;
+        margin-top: 3.61vh;
     }
 
     .container-big-img{
         position: absolute;
         right: 4.01vw;
-        top: 140px;
+        top: 12.96vh;
         width: 58.76vw;
         margin: 0;
     }
 
     .container-little-imgs{
-        margin-top: 5.13vw;
+        margin-top: 9.99vh;
         padding-bottom: 5.365vw;
         width: 27.5vw;
         flex-wrap: nowrap;
     }
 
     .little-img{
-        width:6.34vw;
-        height: 3.75vw;
+        min-width:6.34vw;
         margin: 8.5px .76vw 0 0;
     }
 }
