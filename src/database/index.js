@@ -1,7 +1,7 @@
-import bigImg1 from '../assets/big-img1.jpg'
-import bigImg2 from '../assets/big-img2.jpg'
-import bigImg3 from '../assets/big-img3.jpg'
-import bigImg4 from '../assets/big-img4.jpg'
+import bigImg1 from '../assets/big-img1.jpg';
+import bigImg2 from '../assets/big-img2.jpg';
+import bigImg3 from '../assets/big-img3.jpg';
+import bigImg4 from '../assets/big-img4.jpg';
 
 const Images = [
     {
@@ -26,4 +26,4 @@ const Images = [
     }
 ]
 
-export default Images
+export default Images;
