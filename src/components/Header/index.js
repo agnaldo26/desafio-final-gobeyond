@@ -4,7 +4,7 @@ import logoCorebiz from '../../assets/logo-corebiz-white.svg';
 import imgMenu from '../../assets/img-menu.svg'
 
 
-function HeaderMobile() {
+function Header() {
     const [displayMenu, setDisplayMenu] = useState(false)
     let display = displayMenu ? ' open' : '';
     
@@ -31,4 +31,4 @@ function HeaderMobile() {
     )
 }
 
-export default HeaderMobile;
+export default Header;
