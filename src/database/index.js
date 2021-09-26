@@ -11,17 +11,17 @@ const Images = [
     },
     {
         id: 2,
-        title: 'temos clientes fixos ou projetos em 29 países',
+        title: 'temos clientes fixos ou projetos em 29 países.',
         url: bigImg2,
     },
     {
         id: 3,
-        title: 'temos mais de 340 colaboradores pelo mundo',
+        title: 'temos mais de 340 colaboradores pelo mundo,',
         url: bigImg3,
     },
     {
         id: 4,
-        title: 'e mais de 100 clientes ativos em diversos países',
+        title: 'e mais de 100 clientes ativos em diversos países.',
         url: bigImg4,
     }
 ]

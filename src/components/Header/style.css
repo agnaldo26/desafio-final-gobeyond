@@ -78,7 +78,7 @@
         flex-direction: row; 
         justify-content: space-between; 
         align-items: flex-start;
-        padding: 2.86vw 4.01vw 1.89vw 4.21vw;
+        padding: 5.09vh 4.01vw 3.36vh 4.21vw;
     }
 
     .logo-corebiz-white{
@@ -92,22 +92,29 @@
     }
 
     .menu-header ul{
+        height: 48.66px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
         padding: 0;
     }
 
     .menu-header ul li{
+        height: 48.66px;
         text-align: left;
         border: none;
         margin-left: 42px;
         padding: 0;
         width: fit-content;
+        transition: all .15s ease-in-out;
+    }
+
+    .menu-header ul li:hover, .menu-header ul li:active{
+        border-bottom: 10px #fff solid;
     }
 
     .menu-header ul li .link{
-        width: 100%;
         font-size: 25px;
     }
 }

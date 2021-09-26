@@ -102,11 +102,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        height: 20.37vh;
     }
 
     .first-div{
         align-items: flex-start;
-        padding: 3.96vh 0.88vw 0 4.06vw;
+        padding: 3.98vh 0.88vw 0 4.06vw;
         margin: 0;
         width: 13.02vw;
     }
@@ -142,7 +143,7 @@
 
     .address{
         width: 66.82vw;
-        padding: 3.96vh 0 0 0;
+        padding: 4.9vh 0 0 0;
     }
 
     .countries{
