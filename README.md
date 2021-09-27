@@ -87,6 +87,18 @@ $ yarn start
 
 ---
 
+## 👷 Construção do projeto e metodologia 🚧
+
+1. O projeto se baseou no protótipo feito no Adobe XD, tanto para mobile quanto para desktop.
+
+2. Além dos componentes JavaScript necessários para a construção do site também foi utilizado um arquivo .js para o armazenamento das imagens e textos dinâmicos dentro de um array de objetos, possibilitando assim uma manutenção e/ou alteração mais fácil.
+
+3. O projeto foi construído utilizado o conceito de [Mobile First](https://www.moblee.com.br/blog/mobile-first-principais-vantagens/), ou seja, primeiro foi feita a tela para dispositivos móveis e depois a tela para desktop. 
+
+4. Os componentes são os mesmos para as telas mobile e desktop e a responsividade foi feita toda no CSS, usando o media query.
+
+--- 
+
 ## 💪 Como contribuir no projeto
 
 1. Faça um **fork** do projeto.
