@@ -7,7 +7,7 @@ const Images = [
     {
         id: 2,
         title: 'temos clientes fixos ou projetos em 29 países.',
-        url: 'https://images.unsplash.com/photo-1544906243-a69767cc000b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+        url: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
     },
     {
         id: 3,

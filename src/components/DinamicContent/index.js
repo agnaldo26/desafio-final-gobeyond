@@ -9,76 +9,76 @@ function DinamicContent() {
     const [selectImg3, setSelectImg3] = useState(false);
     const [selectImg4, setSelectImg4] = useState(false);
 
-    const Img1 = ()=>{
-        return(
-            <img src={Images[0].url} alt='Imagem pequena' key='img1' onClick={() =>{
+    const Img1 = () => {
+        return (
+            <img src={Images[0].url} alt='Imagem pequena' key='img1' onClick={() => {
                 setSelectImg1(true)
                 setSelectImg2(false)
                 setSelectImg3(false)
                 setSelectImg4(false)
-            }} className={selectImg1? 'little-img select' : 'little-img'} />
+            }} className={selectImg1 ? 'little-img select' : 'little-img'} />
         )
     }
 
-    const Img2 = ()=>{
-        return(
-            <img src={Images[1].url} alt='Imagem pequena' key='img2' onClick={() =>{
+    const Img2 = () => {
+        return (
+            <img src={Images[1].url} alt='Imagem pequena' key='img2' onClick={() => {
                 setSelectImg2(true)
                 setSelectImg1(false)
                 setSelectImg3(false)
                 setSelectImg4(false)
-            }} className={selectImg2? 'little-img select' : 'little-img'} />
+            }} className={selectImg2 ? 'little-img select' : 'little-img'} />
         )
     }
 
-    const Img3 = ()=>{
-        return(
-            <img src={Images[2].url} alt='Imagem pequena' key='img3' onClick={() =>{
+    const Img3 = () => {
+        return (
+            <img src={Images[2].url} alt='Imagem pequena' key='img3' onClick={() => {
                 setSelectImg3(true)
                 setSelectImg1(false)
                 setSelectImg2(false)
                 setSelectImg4(false)
-            }} className={selectImg3? 'little-img select' : 'little-img'} />
+            }} className={selectImg3 ? 'little-img select' : 'little-img'} />
         )
     }
 
-    const Img4 = ()=>{
-        return(
-            <img src={Images[3].url} alt='Imagem pequena' key='img4' onClick={() =>{
+    const Img4 = () => {
+        return (
+            <img src={Images[3].url} alt='Imagem pequena' key='img4' onClick={() => {
                 setSelectImg4(true)
                 setSelectImg1(false)
                 setSelectImg2(false)
                 setSelectImg3(false)
-            }} className={selectImg4? 'little-img select' : 'little-img'} />
+            }} className={selectImg4 ? 'little-img select' : 'little-img'} />
         )
     }
 
-    let BigImg = () =>{
-        if(selectImg1){
+    let BigImg = () => {
+        if (selectImg1) {
             return <img src={Images[0].url} alt='Imagem grande' className='big-img' />
-        } else if(selectImg2){
+        } else if (selectImg2) {
             return <img src={Images[1].url} alt='Imagem grande' className='big-img' />
-        } else if(selectImg3){
+        } else if (selectImg3) {
             return <img src={Images[2].url} alt='Imagem grande' className='big-img' />
-        } else if(selectImg4){
+        } else if (selectImg4) {
             return <img src={Images[3].url} alt='Imagem grande' className='big-img' />
         }
     }
 
-    let Text = ()=>{
-        if(selectImg1){
-            return <h2 className='title'>{Images[0].title}</h2>
-        } else if(selectImg2){
-            return <h2 className='title'>{Images[1].title}</h2>
-        } else if(selectImg3){
-            return <h2 className='title'>{Images[2].title}</h2>
-        } else if(selectImg4){
-            return <h2 className='title'>{Images[3].title}</h2>
+    let Text = () => {
+        if (selectImg1) {
+            return <h1 className='title'>{Images[0].title}</h1>
+        } else if (selectImg2) {
+            return <h1 className='title'>{Images[1].title}</h1>
+        } else if (selectImg3) {
+            return <h1 className='title'>{Images[2].title}</h1>
+        } else if (selectImg4) {
+            return <h1 className='title'>{Images[3].title}</h1>
         }
     }
 
     return (
-        <>
+        <section className='dinamicContent'>
             <div className='div-title'>
                 <Text />
             </div>
@@ -89,7 +89,7 @@ function DinamicContent() {
                 </a>
             </div>
             <div className='container-big-img'>
-                <BigImg/>
+                <BigImg />
             </div>
             <div className='container-little-imgs'>
                 <Img1 />
@@ -97,7 +97,7 @@ function DinamicContent() {
                 <Img3 />
                 <Img4 />
             </div>
-        </>
+        </section>
     )
 }
 

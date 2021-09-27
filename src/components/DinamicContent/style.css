@@ -67,15 +67,18 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .little-img{
     margin-top: 8.5px;
-    width: 23.06%;
+    width: 19.63vw;
+    height: 11.61vw;
     cursor: pointer;
     border: none;
     transition: all .15s ease-in-out;
     border-radius: 2px;
+    overflow: hidden;
 }
 
 .little-img:active{
@@ -114,12 +117,13 @@
     .container-little-imgs{
         margin-top: 9.99vh;
         padding-bottom: 5.365vw;
-        width: 27.5vw;
+        width: 27.66vw;
         flex-wrap: nowrap;
     }
 
     .little-img{
-        min-width:6.34vw;
+        width:6.34vw;
+        height: 3.75vw;
         margin: 8.5px .76vw 0 0;
     }
 }
