@@ -8,7 +8,7 @@ import iconLinkedin from '../../assets/icon-linkedin.svg'
 function Footer() {
     return (
         <footer className='footer'>
-            <div className='first-div'>
+            <section className='corebiz-rights-media'>
                 <img src={logoCorebiz} alt='Logo Corebiz' className='logo-corebiz-black' />
                 <p className='rights-reserved'>direitos reservados. corebiz 2021</p>
                 <div className='social-media'>
@@ -16,18 +16,18 @@ function Footer() {
                     <a href='https://www.instagram.com/corebizag/' target='_blank' rel='noreferrer' className='link'><img src={iconInstagram} alt='Ícone Instagram' className='icon-instagram' /></a>
                     <a href='https://www.linkedin.com/company/corebiz-brasil' target='_blank' rel='noreferrer' className='link'><img src={iconLinkedin} alt='Ícone LinkedIn' className='icon-linkedin' /></a>
                 </div>
-            </div>
-            <div className='menu-footer'>
+            </section>
+            <nav className='menu-footer'>
                 <ul>
                     <li><a href='https://www.corebiz.ag/pt/about/' target='_blank' rel="noreferrer" className='link'>a corebiz</a></li>
                     <li><a href='https://www.corebiz.ag/pt/#framework-title' target='_blank' rel="noreferrer" className='link'>serviços</a></li>
                     <li><a href='https://www.corebiz.ag/pt/cases/' target='_blank' rel="noreferrer" className='link'>cases</a></li>
                     <li><a href='https://www.corebiz.ag/pt/contato/' target='_blank' rel="noreferrer" className='link'>contato</a></li>
                 </ul>
-            </div>
+            </nav>
 
             <address className='address'>
-                <div className='countries'>
+                <section className='countries'>
                     <div className='country brasil'>
                         <h5 className='name-country'>.Brasil</h5>
                         <p className='unit-address'>Avenida Andrômeda, 2000. Bloco 6 e 8 Alphaville SP</p>
@@ -45,7 +45,7 @@ function Footer() {
                         <h5 className='name-country'>.Chile</h5>
                         <p className='unit-address'>Roberto del Río 1137, Providencia.</p>
                     </div>
-                </div>
+                </section>
             </address>
         </footer>
     )

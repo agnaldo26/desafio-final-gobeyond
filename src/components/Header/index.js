@@ -19,14 +19,14 @@ function Header() {
                 <img src={imgMenu} alt='Botão de menu' className='img-menu' onClick={handleMenu}></img>
             </div>
             
-            <div className={'menu-header' + display}>
+            <nav className={'menu-header' + display}>
                 <ul>
                     <li><a href='https://www.corebiz.ag/pt/about/' target='_blank' rel="noreferrer" className='link'>a corebiz</a></li>
                     <li><a  href='https://www.corebiz.ag/pt/#framework-title' target='_blank' rel="noreferrer" className='link'>serviços</a></li>
                     <li><a href='https://www.corebiz.ag/pt/cases/' target='_blank' rel="noreferrer" className='link'>cases</a></li>
                     <li><a href='https://www.corebiz.ag/pt/contato/' target='_blank' rel="noreferrer" className='link'>contato</a></li>
                 </ul>
-            </div>
+            </nav>
         </header>
     )
 }

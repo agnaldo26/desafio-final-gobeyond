@@ -3,7 +3,7 @@
     background-color: #fff;
 }
 
-.first-div{
+.corebiz-rights-media{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@
         max-height: 220px;
     }
 
-    .first-div{
+    .corebiz-rights-media{
         align-items: flex-start;
         padding: 3.98vh 0.88vw 0 4.06vw;
         margin: 0;
