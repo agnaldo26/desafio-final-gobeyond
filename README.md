@@ -1,28 +1,12 @@
-# GoBeyond Final Challenge (2021)
+<h1 align="center">
+     GoBeyond Final Challenge (2021)
+</h1>
 
 ## Desafio final proposto pela Corebiz no programa Go Beyond. O desafio consiste em realizar uma página web responsiva com React, seguindo um layout design predefinidos.
 
 <h4 align="center">
 	🚧   Concluído 🚀 🚧
 </h4>
-
-Tabela de conteúdos
-=================
-
-   * [Sobre](#-sobre-o-projeto)
-   * [Funcionalidades](#-funcionalidades)
-   * [Layout](#-layout)
-     * [Mobile](#mobile)
-     * [Web](#web)
-   * [Deploy da Aplicação](#deploy)
-   * [Como executar o projeto](#-como-executar-o-projeto)
-     * [Pré-requisitos](#pré-requisitos)
-     * [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
-   * [Tecnologias](#tecnologias)
-   * [Como contribuir no projeto](#-como-contribuir-no-projeto)
-   * [Autor](#-autor)
-   * [Licença](#user-content--licença)
-
 
 ## 💻 Sobre o projeto
 Uma página web responsiva, feita seguindo um layout e design predefinido. A página é responsiva, se adapta a vários tamanhos de tela.
@@ -31,7 +15,7 @@ O projeto foi construído durante o Go Beyond, curso com duração de 2 semanas 
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - [x] No conteúdo principal da página é possível alternar entre imagens dinâmicas, juntamente com um texto que é exibido de acordo com a imagem selecionada
 
@@ -39,7 +23,7 @@ O projeto foi construído durante o Go Beyond, curso com duração de 2 semanas 
     - menu sandwish (para mobile)
     - menu com links redirecionando para o site oficial da Corebiz
     - links redirecionado para as redes sociais da Corebiz, como: Facebook, Instagram e LinkedIn
-    - Footer com informações sobre as unidades e endereço da Corebiz
+    - footer com informações sobre as unidades e endereço da Corebiz
 
 ---
 
@@ -81,13 +65,13 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone https://github.com/agnaldo26/gobeyond-final-challenge.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd gobeyond-final-challenge.git
+$ cd gobeyond-final-challenge
+
+# Instale o yarn (se ainda não estiver instalado)
+$ npm install -g yarn
 
 # Instale as dependências
 $ yarn install
-
-# Instale o yarn (se ainda não tiver instalado)
-$ npm install -g yarn
 
 # Execute a aplicação
 $ yarn start
@@ -99,7 +83,7 @@ $ yarn start
 
 ## 🛠 Tecnologias
 
-#### **Website**  ([React](https://reactjs.org/) + ([CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS))
+#### **Website**  ([React](https://reactjs.org/) + [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS))
 
 ---
 
@@ -115,11 +99,11 @@ $ yarn start
 
 ## 🦸 Autor
 
-Agnaldo Pereira de S.S. Filho
+Agnaldo Pereira de S.S. Filho:
+ - LinkedIn:
+<https://www.linkedin.com/in/agnaldo-pereira-de-souza-silva-filho-8823081a6>
 
-([LinkedIn](https://www.linkedin.com/in/agnaldo-pereira-de-souza-silva-filho-8823081a6))
-
-E-mail:
+ - E-mail:
 <a href='mailto:agnaldosilva9704@gmail.com'>agnaldosilva9704@gmail.com</a>
 
 ---
