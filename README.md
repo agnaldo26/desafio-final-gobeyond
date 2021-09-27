@@ -14,6 +14,7 @@ Tabela de conteúdos
    * [Layout](#-layout)
      * [Mobile](#mobile)
      * [Web](#web)
+   * [Deploy da Aplicação](#deploy)
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
      * [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
@@ -54,7 +55,16 @@ O layout da aplicação está disponível no Adobe XD:
 
 ---
 
+## 🚀 Deploy da Aplicação
+
+Feito deploy da aplicação no Vercel:
+
+<https://gobeyond-final-challenge-agnaldo26.vercel.app/>
+
+---
+
 ## 🚀 Como executar o projeto
+
 Esse projeto é composto somente pelo Front-End
 
 ### Pré-requisitos
